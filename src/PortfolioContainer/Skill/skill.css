@@ -1,0 +1,46 @@
+
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    background-color: #1d293a;
+    padding: 2%;
+    border-radius: 8px;
+    margin:15px 0;
+}
+.skill-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill-title p {
+    background-color: #00cf5d;
+    border-radius: 4px;
+    padding: 3px;
+}
+progress#file {
+    width: 100%;
+    background-color: #00cf5d;
+}
+.skill-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width:1000px) {
+    
+    .skill-container{
+        flex-direction: column;
+    }
+    .skill-card{
+        width: 90%;
+    }
+}
