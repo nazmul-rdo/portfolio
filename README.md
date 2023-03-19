@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-live : https://portfoliordo.netlify.app/
+live : https://nazmul-rdo.netlify.app/
 
 ## Available Scripts
 
